@@ -71,6 +71,7 @@ In the Azure Portal:
 
 ---
 
+
 ## 5. Create GitHub Repository Secret
 
 Open your GitHub repository and go to:
@@ -124,12 +125,13 @@ Set the value to the login server of your Azure Container Registry.
 
 ---
 
+
 ## 7. Run the CI Pipeline
 
 Run the workflow manually from the **Actions** section of the GitHub repository.
 
 Alteernatively, Make some changes in code and push the changes.
-
+doing some changes...
 Monitor the workflow and confirm that all backend tests pass before the Docker image build and push jobs begin.
 
 ---
