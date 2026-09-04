@@ -10,12 +10,12 @@ import {
   TableRow,
   Tooltip,
 } from "@mui/material";
-import {
-  Delete,
-  Edit,
-  PersonAdd,
-  PersonRemove,
-} from "@mui/icons-material";
+
+import Delete from "@mui/icons-material/Delete";
+import Edit from "@mui/icons-material/Edit";
+import PersonAdd from "@mui/icons-material/PersonAdd";
+import PersonRemove from "@mui/icons-material/PersonRemove";
+
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";

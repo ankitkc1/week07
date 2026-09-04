@@ -11,11 +11,11 @@ import {
   TableRow,
   Tooltip,
 } from "@mui/material";
-import {
-  Delete,
-  Edit,
-  PhotoCamera,
-} from "@mui/icons-material";
+
+import Delete from "@mui/icons-material/Delete";
+import Edit from "@mui/icons-material/Edit";
+import PhotoCamera from "@mui/icons-material/PhotoCamera";
+
 import {
   useEffect,
   useState,
