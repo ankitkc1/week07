@@ -66,7 +66,7 @@ const Login = () => {
 
       if (!token) {
         throw new Error(
-          "Access token was not returned."
+          "Access token was not returned !"
         );
       }
 
